@@ -19,6 +19,7 @@ const options = {
   }
 };
 
+
 const uploadImage = (uri, mime = 'application/octet-stream') => {
 
   const Blob = RNFetchBlob.polyfill.Blob;
